@@ -1,0 +1,20 @@
+{
+    "name": "app-1/app",
+    "description": "Enviar PDF via Email",
+    "authors": [
+        {
+            "name": "Kaua"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0",
+        "phpmailer/phpmailer": "^6.7",
+        "league/oauth2-client": "^2.6",
+        "league/oauth2-google": "^4.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\":"App/"
+        }
+    }
+}
