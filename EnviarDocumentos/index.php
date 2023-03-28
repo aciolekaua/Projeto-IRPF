@@ -109,7 +109,6 @@
             //$mail->Body = 'qualquer duvida,entre em contato com o suporte'; aqui pode conter tags html no altbody não
             $mail->AltBody = 'Email para exemploNome';
             
-            $mail->send();
             if(!$mail->Send()){
                 echo  'Message has been sent';
             } else{
